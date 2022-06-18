@@ -1,0 +1,23 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "Hackathon code share",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./src/css/style.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./src/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zelfroster/Hackathon.git"
+  },
+  "author": "Sumit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zelfroster/Hackathon/issues"
+  },
+  "homepage": "https://github.com/zelfroster/Hackathon#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.3"
+  }
+}
